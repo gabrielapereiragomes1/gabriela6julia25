@@ -25,3 +25,5 @@
   diplay:none;
 }
 @media screen and (min-width: 820px) {
+.container_título{
+  font-size: 30px; display: inline-block;
