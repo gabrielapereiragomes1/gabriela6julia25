@@ -1,0 +1,27 @@
+.cabeçalho{
+  background-color: var (--fundo-azul);
+  margin:0;
+}
+.container{
+  display: flex; align-itens :center;
+}
+.container_imagem {
+  width: 45px; height: 45px;
+}
+.container_título, .container_imagem, .container_frase{
+  padding:0.1em ; color:white;
+}
+.container_título, .container_frase{
+  diplay:none;
+}
+.cx-texto{
+  display:flex ; justify-content :center ;
+}
+.texto-mobile{
+  display:block; font-size:30px;
+  margin-top:3em; padding:1em;
+}
+.texto-desktop, .texto-tablet{
+  diplay:none;
+}
+@media screen and (min-width: 820px) {
